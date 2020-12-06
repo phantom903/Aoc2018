@@ -24,9 +24,9 @@ elif dayChoice == "2":
   print("Part 2: " , dayTwo.partTwo())
 elif dayChoice == "3":
   y = fileOpenLines(3, "s")
-  dayThree = DayThree()
-  print("Part 1: " , dayThree.pathCalc(y, 1))
-  print("Part 2: " , dayThree.pathCalc(y, 2))
+  dayThree = DayThree(y)
+  print("Part 1: " , dayThree.partOne())
+  print("Part 2: " , dayThree.partTwo())
 elif dayChoice == "4":
   y = fileOpenNewLines(4)
   dayFour = DayFour()

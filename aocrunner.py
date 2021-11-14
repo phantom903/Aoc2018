@@ -1,7 +1,7 @@
 # from day6 import DaySix
 from day1 import DayOne
 from day2 import DayTwo
-# from day3 import DayThree
+from day3 import DayThree
 # from day4 import DayFour
 from aoc import fileOpenLines, fileOpenNewLines, ints
 import sys

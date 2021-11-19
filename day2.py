@@ -18,7 +18,7 @@ class DayTwo:
         count = line.count(i)
         if count == 2:
           two = True
-        if count == 3:
+        if count == 3: 
           three = True
       totalTwos.append(two)
       totalThrees.append(three)
